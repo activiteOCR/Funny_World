@@ -1,0 +1,1476 @@
+heure d'arrive visiteur : 34.153969
+heure d'arrive visiteur : 69.246346
+heure d'arrive visiteur : 45.651417
+heure d'arrive visiteur : 43.439808
+heure d'arrive visiteur : 65.402863
+manege temps d'attente: 3.239832
+manege temps d'attente: 6.004921
+manege temps d'attente: 1.299760
+manege temps d'attente: 0.812650
+manege temps d'attente: 3.779972
+---------------evenementt 1 ----------------
+evenement queue longueur: 10
+heure : 0.812650
+Manege evenement
+Empty queue
+idle time: 0.410868	new time: 1.223519
+-------------------------------
+---------------evenementt 2 ----------------
+evenement queue longueur: 10
+heure : 1.299760
+Manege evenement
+Empty queue
+idle time: 1.979633	new time: 3.279393
+-------------------------------
+---------------evenementt 3 ----------------
+evenement queue longueur: 10
+heure : 1.223519
+Manege evenement
+Empty queue
+idle time: 0.343377	new time: 1.566896
+-------------------------------
+---------------evenementt 4 ----------------
+evenement queue longueur: 10
+heure : 1.566896
+Manege evenement
+Empty queue
+idle time: 2.642050	new time: 4.208945
+-------------------------------
+---------------evenementt 5 ----------------
+evenement queue longueur: 10
+heure : 3.239832
+Manege evenement
+Empty queue
+idle time: 1.747349	new time: 4.987181
+-------------------------------
+---------------evenementt 6 ----------------
+evenement queue longueur: 10
+heure : 3.779972
+Manege evenement
+Empty queue
+idle time: 0.632589	new time: 4.412561
+-------------------------------
+---------------evenementt 7 ----------------
+evenement queue longueur: 10
+heure : 3.279393
+Manege evenement
+Empty queue
+idle time: 2.004977	new time: 5.284369
+-------------------------------
+---------------evenementt 8 ----------------
+evenement queue longueur: 10
+heure : 4.208945
+Manege evenement
+Empty queue
+idle time: 1.586655	new time: 5.795600
+-------------------------------
+---------------evenementt 9 ----------------
+evenement queue longueur: 10
+heure : 4.987181
+Manege evenement
+Empty queue
+idle time: 0.937030	new time: 5.924212
+-------------------------------
+---------------evenementt 10 ----------------
+evenement queue longueur: 10
+heure : 4.412561
+Manege evenement
+Empty queue
+idle time: 2.829666	new time: 7.242228
+-------------------------------
+---------------evenementt 11 ----------------
+evenement queue longueur: 10
+heure : 5.284369
+Manege evenement
+Empty queue
+idle time: 2.304617	new time: 7.588986
+-------------------------------
+---------------evenementt 12 ----------------
+evenement queue longueur: 10
+heure : 5.795600
+Manege evenement
+Empty queue
+idle time: 0.366259	new time: 6.161859
+-------------------------------
+---------------evenementt 13 ----------------
+evenement queue longueur: 10
+heure : 5.924212
+Manege evenement
+Empty queue
+idle time: 0.114795	new time: 6.039006
+-------------------------------
+---------------evenementt 14 ----------------
+evenement queue longueur: 10
+heure : 6.004921
+Manege evenement
+Empty queue
+idle time: 1.544808	new time: 7.549729
+-------------------------------
+---------------evenementt 15 ----------------
+evenement queue longueur: 10
+heure : 6.161859
+Manege evenement
+Empty queue
+idle time: 1.197900	new time: 7.359758
+-------------------------------
+---------------evenementt 16 ----------------
+evenement queue longueur: 10
+heure : 6.039006
+Manege evenement
+Empty queue
+idle time: 0.634696	new time: 6.673703
+-------------------------------
+---------------evenementt 17 ----------------
+evenement queue longueur: 10
+heure : 6.673703
+Manege evenement
+Empty queue
+idle time: 1.357949	new time: 8.031652
+-------------------------------
+---------------evenementt 18 ----------------
+evenement queue longueur: 10
+heure : 7.242228
+Manege evenement
+Empty queue
+idle time: 0.480486	new time: 7.722713
+-------------------------------
+---------------evenementt 19 ----------------
+evenement queue longueur: 10
+heure : 7.588986
+Manege evenement
+Empty queue
+idle time: 0.924741	new time: 8.513727
+-------------------------------
+---------------evenementt 20 ----------------
+evenement queue longueur: 10
+heure : 7.549729
+Manege evenement
+Empty queue
+idle time: 1.301275	new time: 8.851005
+-------------------------------
+---------------evenementt 21 ----------------
+evenement queue longueur: 10
+heure : 7.359758
+Manege evenement
+Empty queue
+idle time: 0.016305	new time: 7.376063
+-------------------------------
+---------------evenementt 22 ----------------
+evenement queue longueur: 10
+heure : 7.722713
+Manege evenement
+Empty queue
+idle time: 1.949360	new time: 9.672073
+-------------------------------
+---------------evenementt 23 ----------------
+evenement queue longueur: 10
+heure : 7.376063
+Manege evenement
+Empty queue
+idle time: 0.378666	new time: 7.754728
+-------------------------------
+---------------evenementt 24 ----------------
+evenement queue longueur: 10
+heure : 7.754728
+Manege evenement
+Empty queue
+idle time: 1.385847	new time: 9.140575
+-------------------------------
+---------------evenementt 25 ----------------
+evenement queue longueur: 10
+heure : 8.031652
+Manege evenement
+Empty queue
+idle time: 0.252554	new time: 8.284206
+-------------------------------
+---------------evenementt 26 ----------------
+evenement queue longueur: 10
+heure : 8.513727
+Manege evenement
+Empty queue
+idle time: 2.340752	new time: 10.854479
+-------------------------------
+---------------evenementt 27 ----------------
+evenement queue longueur: 10
+heure : 8.851005
+Manege evenement
+Empty queue
+idle time: 2.357797	new time: 11.208801
+-------------------------------
+---------------evenementt 28 ----------------
+evenement queue longueur: 10
+heure : 8.284206
+Manege evenement
+Empty queue
+idle time: 2.054030	new time: 10.338237
+-------------------------------
+---------------evenementt 29 ----------------
+evenement queue longueur: 10
+heure : 9.672073
+Manege evenement
+Empty queue
+idle time: 2.730680	new time: 12.402753
+-------------------------------
+---------------evenementt 30 ----------------
+evenement queue longueur: 10
+heure : 9.140575
+Manege evenement
+Empty queue
+idle time: 2.601592	new time: 11.742167
+-------------------------------
+---------------evenementt 31 ----------------
+evenement queue longueur: 10
+heure : 10.854479
+Manege evenement
+Empty queue
+idle time: 0.188022	new time: 11.042500
+-------------------------------
+---------------evenementt 32 ----------------
+evenement queue longueur: 10
+heure : 10.338237
+Manege evenement
+Empty queue
+idle time: 0.141548	new time: 10.479785
+-------------------------------
+---------------evenementt 33 ----------------
+evenement queue longueur: 10
+heure : 10.479785
+Manege evenement
+Empty queue
+idle time: 1.581225	new time: 12.061010
+-------------------------------
+---------------evenementt 34 ----------------
+evenement queue longueur: 10
+heure : 11.208801
+Manege evenement
+Empty queue
+idle time: 0.531399	new time: 11.740200
+-------------------------------
+---------------evenementt 35 ----------------
+evenement queue longueur: 10
+heure : 11.742167
+Manege evenement
+Empty queue
+idle time: 2.783597	new time: 14.525764
+-------------------------------
+---------------evenementt 36 ----------------
+evenement queue longueur: 10
+heure : 11.042500
+Manege evenement
+Empty queue
+idle time: 0.328574	new time: 11.371075
+-------------------------------
+---------------evenementt 37 ----------------
+evenement queue longueur: 10
+heure : 11.740200
+Manege evenement
+Empty queue
+idle time: 1.163988	new time: 12.904188
+-------------------------------
+---------------evenementt 38 ----------------
+evenement queue longueur: 10
+heure : 11.371075
+Manege evenement
+Empty queue
+idle time: 1.788574	new time: 13.159649
+-------------------------------
+---------------evenementt 39 ----------------
+evenement queue longueur: 10
+heure : 12.402753
+Manege evenement
+Empty queue
+idle time: 1.915228	new time: 14.317981
+-------------------------------
+---------------evenementt 40 ----------------
+evenement queue longueur: 10
+heure : 12.061010
+Manege evenement
+Empty queue
+idle time: 2.101019	new time: 14.162029
+-------------------------------
+---------------evenementt 41 ----------------
+evenement queue longueur: 10
+heure : 12.904188
+Manege evenement
+Empty queue
+idle time: 1.618240	new time: 14.522429
+-------------------------------
+---------------evenementt 42 ----------------
+evenement queue longueur: 10
+heure : 13.159649
+Manege evenement
+Empty queue
+idle time: 1.219845	new time: 14.379494
+-------------------------------
+---------------evenementt 43 ----------------
+evenement queue longueur: 10
+heure : 14.525764
+Manege evenement
+Empty queue
+idle time: 2.467278	new time: 16.993042
+-------------------------------
+---------------evenementt 44 ----------------
+evenement queue longueur: 10
+heure : 14.317981
+Manege evenement
+Empty queue
+idle time: 1.733035	new time: 16.051016
+-------------------------------
+---------------evenementt 45 ----------------
+evenement queue longueur: 10
+heure : 14.162029
+Manege evenement
+Empty queue
+idle time: 2.764653	new time: 16.926682
+-------------------------------
+---------------evenementt 46 ----------------
+evenement queue longueur: 10
+heure : 14.522429
+Manege evenement
+Empty queue
+idle time: 0.665177	new time: 15.187606
+-------------------------------
+---------------evenementt 47 ----------------
+evenement queue longueur: 10
+heure : 14.379494
+Manege evenement
+Empty queue
+idle time: 2.367731	new time: 16.747225
+-------------------------------
+---------------evenementt 48 ----------------
+evenement queue longueur: 10
+heure : 15.187606
+Manege evenement
+Empty queue
+idle time: 1.122602	new time: 16.310207
+-------------------------------
+---------------evenementt 49 ----------------
+evenement queue longueur: 10
+heure : 16.993042
+Manege evenement
+Empty queue
+idle time: 1.145663	new time: 18.138704
+-------------------------------
+---------------evenementt 50 ----------------
+evenement queue longueur: 10
+heure : 16.051016
+Manege evenement
+Empty queue
+idle time: 0.292472	new time: 16.343487
+-------------------------------
+---------------evenementt 51 ----------------
+evenement queue longueur: 10
+heure : 16.926682
+Manege evenement
+Empty queue
+idle time: 2.423878	new time: 19.350559
+-------------------------------
+---------------evenementt 52 ----------------
+evenement queue longueur: 10
+heure : 16.747225
+Manege evenement
+Empty queue
+idle time: 1.161968	new time: 17.909193
+-------------------------------
+---------------evenementt 53 ----------------
+evenement queue longueur: 10
+heure : 16.310207
+Manege evenement
+Empty queue
+idle time: 2.241831	new time: 18.552038
+-------------------------------
+---------------evenementt 54 ----------------
+evenement queue longueur: 10
+heure : 16.343487
+Manege evenement
+Empty queue
+idle time: 2.802543	new time: 19.146030
+-------------------------------
+---------------evenementt 55 ----------------
+evenement queue longueur: 10
+heure : 17.909193
+Manege evenement
+Empty queue
+idle time: 2.547815	new time: 20.457008
+-------------------------------
+---------------evenementt 56 ----------------
+evenement queue longueur: 10
+heure : 18.138704
+Manege evenement
+Empty queue
+idle time: 2.494385	new time: 20.633089
+-------------------------------
+---------------evenementt 57 ----------------
+evenement queue longueur: 10
+heure : 18.552038
+Manege evenement
+Empty queue
+idle time: 2.143295	new time: 20.695333
+-------------------------------
+---------------evenementt 58 ----------------
+evenement queue longueur: 10
+heure : 19.350559
+Manege evenement
+Empty queue
+idle time: 1.905612	new time: 21.256170
+-------------------------------
+---------------evenementt 59 ----------------
+evenement queue longueur: 10
+heure : 19.146030
+Manege evenement
+Empty queue
+idle time: 1.548416	new time: 20.694447
+-------------------------------
+---------------evenementt 60 ----------------
+evenement queue longueur: 10
+heure : 20.457008
+Manege evenement
+Empty queue
+idle time: 1.873974	new time: 22.330982
+-------------------------------
+---------------evenementt 61 ----------------
+evenement queue longueur: 10
+heure : 20.633089
+Manege evenement
+Empty queue
+idle time: 1.507204	new time: 22.140293
+-------------------------------
+---------------evenementt 62 ----------------
+evenement queue longueur: 10
+heure : 20.695333
+Manege evenement
+Empty queue
+idle time: 1.736438	new time: 22.431770
+-------------------------------
+---------------evenementt 63 ----------------
+evenement queue longueur: 10
+heure : 20.694447
+Manege evenement
+Empty queue
+idle time: 2.015522	new time: 22.709969
+-------------------------------
+---------------evenementt 64 ----------------
+evenement queue longueur: 10
+heure : 21.256170
+Manege evenement
+Empty queue
+idle time: 0.088429	new time: 21.344599
+-------------------------------
+---------------evenementt 65 ----------------
+evenement queue longueur: 10
+heure : 21.344599
+Manege evenement
+Empty queue
+idle time: 2.267837	new time: 23.612434
+-------------------------------
+---------------evenementt 66 ----------------
+evenement queue longueur: 10
+heure : 22.330982
+Manege evenement
+Empty queue
+idle time: 1.799120	new time: 24.130102
+-------------------------------
+---------------evenementt 67 ----------------
+evenement queue longueur: 10
+heure : 22.140293
+Manege evenement
+Empty queue
+idle time: 0.417002	new time: 22.557295
+-------------------------------
+---------------evenementt 68 ----------------
+evenement queue longueur: 10
+heure : 22.431770
+Manege evenement
+Empty queue
+idle time: 0.431825	new time: 22.863596
+-------------------------------
+---------------evenementt 69 ----------------
+evenement queue longueur: 10
+heure : 22.709969
+Manege evenement
+Empty queue
+idle time: 0.587694	new time: 23.297663
+-------------------------------
+---------------evenementt 70 ----------------
+evenement queue longueur: 10
+heure : 22.557295
+Manege evenement
+Empty queue
+idle time: 2.332231	new time: 24.889526
+-------------------------------
+---------------evenementt 71 ----------------
+evenement queue longueur: 10
+heure : 22.863596
+Manege evenement
+Empty queue
+idle time: 2.532844	new time: 25.396441
+-------------------------------
+---------------evenementt 72 ----------------
+evenement queue longueur: 10
+heure : 23.612434
+Manege evenement
+Empty queue
+idle time: 2.205934	new time: 25.818369
+-------------------------------
+---------------evenementt 73 ----------------
+evenement queue longueur: 10
+heure : 23.297663
+Manege evenement
+Empty queue
+idle time: 0.552076	new time: 23.849739
+-------------------------------
+---------------evenementt 74 ----------------
+evenement queue longueur: 10
+heure : 23.849739
+Manege evenement
+Empty queue
+idle time: 2.000121	new time: 25.849861
+-------------------------------
+---------------evenementt 75 ----------------
+evenement queue longueur: 10
+heure : 24.130102
+Manege evenement
+Empty queue
+idle time: 0.938969	new time: 25.069071
+-------------------------------
+---------------evenementt 76 ----------------
+evenement queue longueur: 10
+heure : 24.889526
+Manege evenement
+Empty queue
+idle time: 0.316729	new time: 25.206255
+-------------------------------
+---------------evenementt 77 ----------------
+evenement queue longueur: 10
+heure : 25.396441
+Manege evenement
+Empty queue
+idle time: 2.665298	new time: 28.061739
+-------------------------------
+---------------evenementt 78 ----------------
+evenement queue longueur: 10
+heure : 25.818369
+Manege evenement
+Empty queue
+idle time: 0.306700	new time: 26.125069
+-------------------------------
+---------------evenementt 79 ----------------
+evenement queue longueur: 10
+heure : 25.849861
+Manege evenement
+Empty queue
+idle time: 1.439331	new time: 27.289192
+-------------------------------
+---------------evenementt 80 ----------------
+evenement queue longueur: 10
+heure : 25.069071
+Manege evenement
+Empty queue
+idle time: 0.810961	new time: 25.880032
+-------------------------------
+---------------evenementt 81 ----------------
+evenement queue longueur: 10
+heure : 25.206255
+Manege evenement
+Empty queue
+idle time: 0.599172	new time: 25.805426
+-------------------------------
+---------------evenementt 82 ----------------
+evenement queue longueur: 10
+heure : 25.880032
+Manege evenement
+Empty queue
+idle time: 0.863209	new time: 26.743240
+-------------------------------
+---------------evenementt 83 ----------------
+evenement queue longueur: 10
+heure : 25.805426
+Manege evenement
+Empty queue
+idle time: 1.972929	new time: 27.778355
+-------------------------------
+---------------evenementt 84 ----------------
+evenement queue longueur: 10
+heure : 26.125069
+Manege evenement
+Empty queue
+idle time: 2.841003	new time: 28.966072
+-------------------------------
+---------------evenementt 85 ----------------
+evenement queue longueur: 10
+heure : 26.743240
+Manege evenement
+Empty queue
+idle time: 0.665753	new time: 27.408993
+-------------------------------
+---------------evenementt 86 ----------------
+evenement queue longueur: 10
+heure : 27.289192
+Manege evenement
+Empty queue
+idle time: 1.520744	new time: 28.809937
+-------------------------------
+---------------evenementt 87 ----------------
+evenement queue longueur: 10
+heure : 27.778355
+Manege evenement
+Empty queue
+idle time: 2.335388	new time: 30.113743
+-------------------------------
+---------------evenementt 88 ----------------
+evenement queue longueur: 10
+heure : 27.408993
+Manege evenement
+Empty queue
+idle time: 2.809048	new time: 30.218040
+-------------------------------
+---------------evenementt 89 ----------------
+evenement queue longueur: 10
+heure : 28.061739
+Manege evenement
+Empty queue
+idle time: 0.426356	new time: 28.488094
+-------------------------------
+---------------evenementt 90 ----------------
+evenement queue longueur: 10
+heure : 28.966072
+Manege evenement
+Empty queue
+idle time: 0.883804	new time: 29.849876
+-------------------------------
+---------------evenementt 91 ----------------
+evenement queue longueur: 10
+heure : 28.809937
+Manege evenement
+Empty queue
+idle time: 1.683022	new time: 30.492958
+-------------------------------
+---------------evenementt 92 ----------------
+evenement queue longueur: 10
+heure : 28.488094
+Manege evenement
+Empty queue
+idle time: 1.933560	new time: 30.421654
+-------------------------------
+---------------evenementt 93 ----------------
+evenement queue longueur: 10
+heure : 29.849876
+Manege evenement
+Empty queue
+idle time: 2.620241	new time: 32.470119
+-------------------------------
+---------------evenementt 94 ----------------
+evenement queue longueur: 10
+heure : 30.113743
+Manege evenement
+Empty queue
+idle time: 0.698544	new time: 30.812286
+-------------------------------
+---------------evenementt 95 ----------------
+evenement queue longueur: 10
+heure : 30.218040
+Manege evenement
+Empty queue
+idle time: 2.021988	new time: 32.240028
+-------------------------------
+---------------evenementt 96 ----------------
+evenement queue longueur: 10
+heure : 30.492958
+Manege evenement
+Empty queue
+idle time: 1.888078	new time: 32.381035
+-------------------------------
+---------------evenementt 97 ----------------
+evenement queue longueur: 10
+heure : 30.421654
+Manege evenement
+Empty queue
+idle time: 2.497664	new time: 32.919319
+-------------------------------
+---------------evenementt 98 ----------------
+evenement queue longueur: 10
+heure : 30.812286
+Manege evenement
+Empty queue
+idle time: 2.438991	new time: 33.251278
+-------------------------------
+---------------evenementt 99 ----------------
+evenement queue longueur: 10
+heure : 32.470119
+Manege evenement
+Empty queue
+idle time: 2.319903	new time: 34.790024
+-------------------------------
+---------------evenementt 100 ----------------
+evenement queue longueur: 10
+heure : 32.240028
+Manege evenement
+Empty queue
+idle time: 0.085358	new time: 32.325386
+-------------------------------
+---------------evenementt 101 ----------------
+evenement queue longueur: 10
+heure : 32.381035
+Manege evenement
+Empty queue
+idle time: 1.771221	new time: 34.152256
+-------------------------------
+---------------evenementt 102 ----------------
+evenement queue longueur: 10
+heure : 32.919319
+Manege evenement
+Empty queue
+idle time: 1.852747	new time: 34.772064
+-------------------------------
+---------------evenementt 103 ----------------
+evenement queue longueur: 10
+heure : 32.325386
+Manege evenement
+Empty queue
+idle time: 2.291291	new time: 34.616676
+-------------------------------
+---------------evenementt 104 ----------------
+evenement queue longueur: 10
+heure : 33.251278
+Manege evenement
+Empty queue
+idle time: 2.323297	new time: 35.574574
+-------------------------------
+---------------evenementt 105 ----------------
+evenement queue longueur: 10
+heure : 34.153969
+Visiteur arrive evenement
+Manege courant longueur queue: 1
+-------------------------------
+---------------evenementt 106 ----------------
+evenement queue longueur: 9
+heure : 34.790024
+Manege evenement
+Queuu pas vide
+Temps de tour : 56.857853	nouveau temps : 91.647873
+-------------------------------
+---------------evenementt 107 ----------------
+evenement queue longueur: 10
+heure : 34.152256
+Manege evenement
+Empty queue
+idle time: 0.230260	new time: 34.382515
+-------------------------------
+---------------evenementt 108 ----------------
+evenement queue longueur: 10
+heure : 34.772064
+Manege evenement
+Empty queue
+idle time: 2.640026	new time: 37.412090
+-------------------------------
+---------------evenementt 109 ----------------
+evenement queue longueur: 10
+heure : 34.616676
+Manege evenement
+Empty queue
+idle time: 0.518166	new time: 35.134842
+-------------------------------
+---------------evenementt 110 ----------------
+evenement queue longueur: 10
+heure : 34.382515
+Manege evenement
+Empty queue
+idle time: 0.536960	new time: 34.919476
+-------------------------------
+---------------evenementt 111 ----------------
+evenement queue longueur: 10
+heure : 34.919476
+Manege evenement
+Empty queue
+idle time: 1.079358	new time: 35.998833
+-------------------------------
+---------------evenementt 112 ----------------
+evenement queue longueur: 10
+heure : 35.574574
+Manege evenement
+Empty queue
+idle time: 1.329128	new time: 36.903702
+-------------------------------
+---------------evenementt 113 ----------------
+evenement queue longueur: 10
+heure : 35.134842
+Manege evenement
+Empty queue
+idle time: 1.136131	new time: 36.270973
+-------------------------------
+---------------evenementt 114 ----------------
+evenement queue longueur: 10
+heure : 35.998833
+Manege evenement
+Empty queue
+idle time: 1.942567	new time: 37.941399
+-------------------------------
+---------------evenementt 115 ----------------
+evenement queue longueur: 10
+heure : 36.903702
+Manege evenement
+Empty queue
+idle time: 0.302057	new time: 37.205757
+-------------------------------
+---------------evenementt 116 ----------------
+evenement queue longueur: 10
+heure : 36.270973
+Manege evenement
+Empty queue
+idle time: 0.977134	new time: 37.248108
+-------------------------------
+---------------evenementt 117 ----------------
+evenement queue longueur: 10
+heure : 37.412090
+Manege evenement
+Empty queue
+idle time: 2.608319	new time: 40.020409
+-------------------------------
+---------------evenementt 118 ----------------
+evenement queue longueur: 10
+heure : 37.941399
+Manege evenement
+Empty queue
+idle time: 1.822801	new time: 39.764198
+-------------------------------
+---------------evenementt 119 ----------------
+evenement queue longueur: 10
+heure : 37.205757
+Manege evenement
+Empty queue
+idle time: 0.312523	new time: 37.518280
+-------------------------------
+---------------evenementt 120 ----------------
+evenement queue longueur: 10
+heure : 37.248108
+Manege evenement
+Empty queue
+idle time: 2.417367	new time: 39.665474
+-------------------------------
+---------------evenementt 121 ----------------
+evenement queue longueur: 10
+heure : 37.518280
+Manege evenement
+Empty queue
+idle time: 2.249157	new time: 39.767437
+-------------------------------
+---------------evenementt 122 ----------------
+evenement queue longueur: 10
+heure : 39.764198
+Manege evenement
+Empty queue
+idle time: 1.196326	new time: 40.960526
+-------------------------------
+---------------evenementt 123 ----------------
+evenement queue longueur: 10
+heure : 39.665474
+Manege evenement
+Empty queue
+idle time: 1.100389	new time: 40.765862
+-------------------------------
+---------------evenementt 124 ----------------
+evenement queue longueur: 10
+heure : 39.767437
+Manege evenement
+Empty queue
+idle time: 1.182716	new time: 40.950153
+-------------------------------
+---------------evenementt 125 ----------------
+evenement queue longueur: 10
+heure : 40.020409
+Manege evenement
+Empty queue
+idle time: 0.816568	new time: 40.836975
+-------------------------------
+---------------evenementt 126 ----------------
+evenement queue longueur: 10
+heure : 40.960526
+Manege evenement
+Empty queue
+idle time: 1.798933	new time: 42.759460
+-------------------------------
+---------------evenementt 127 ----------------
+evenement queue longueur: 10
+heure : 40.765862
+Manege evenement
+Empty queue
+idle time: 0.204704	new time: 40.970566
+-------------------------------
+---------------evenementt 128 ----------------
+evenement queue longueur: 10
+heure : 40.950153
+Manege evenement
+Empty queue
+idle time: 2.704646	new time: 43.654800
+-------------------------------
+---------------evenementt 129 ----------------
+evenement queue longueur: 10
+heure : 40.836975
+Manege evenement
+Empty queue
+idle time: 1.296597	new time: 42.133572
+-------------------------------
+---------------evenementt 130 ----------------
+evenement queue longueur: 10
+heure : 40.970566
+Manege evenement
+Empty queue
+idle time: 2.643695	new time: 43.614262
+-------------------------------
+---------------evenementt 131 ----------------
+evenement queue longueur: 10
+heure : 42.759460
+Manege evenement
+Empty queue
+idle time: 2.024549	new time: 44.784008
+-------------------------------
+---------------evenementt 132 ----------------
+evenement queue longueur: 10
+heure : 42.133572
+Manege evenement
+Empty queue
+idle time: 1.381955	new time: 43.515526
+-------------------------------
+---------------evenementt 133 ----------------
+evenement queue longueur: 10
+heure : 43.439808
+Visiteur arrive evenement
+Manege courant longueur queue: 1
+-------------------------------
+---------------evenementt 134 ----------------
+evenement queue longueur: 9
+heure : 43.654800
+Manege evenement
+Queuu pas vide
+Temps de tour : 94.327759	nouveau temps : 137.982559
+-------------------------------
+---------------evenementt 135 ----------------
+evenement queue longueur: 10
+heure : 43.614262
+Manege evenement
+Empty queue
+idle time: 0.877295	new time: 44.491558
+-------------------------------
+---------------evenementt 136 ----------------
+evenement queue longueur: 10
+heure : 43.515526
+Manege evenement
+Empty queue
+idle time: 0.673246	new time: 44.188774
+-------------------------------
+---------------evenementt 137 ----------------
+evenement queue longueur: 10
+heure : 44.784008
+Manege evenement
+Empty queue
+idle time: 0.738214	new time: 45.522221
+-------------------------------
+---------------evenementt 138 ----------------
+evenement queue longueur: 10
+heure : 44.491558
+Manege evenement
+Empty queue
+idle time: 1.730163	new time: 46.221722
+-------------------------------
+---------------evenementt 139 ----------------
+evenement queue longueur: 10
+heure : 44.188774
+Manege evenement
+Empty queue
+idle time: 0.903507	new time: 45.092281
+-------------------------------
+---------------evenementt 140 ----------------
+evenement queue longueur: 10
+heure : 45.651417
+Visiteur arrive evenement
+Manege courant longueur queue: 1
+-------------------------------
+---------------evenementt 141 ----------------
+evenement queue longueur: 9
+heure : 45.522221
+Manege evenement
+Queuu pas vide
+Temps de tour : 25.215984	nouveau temps : 70.738205
+-------------------------------
+---------------evenementt 142 ----------------
+evenement queue longueur: 10
+heure : 45.092281
+Manege evenement
+Empty queue
+idle time: 2.248329	new time: 47.340611
+-------------------------------
+---------------evenementt 143 ----------------
+evenement queue longueur: 10
+heure : 46.221722
+Manege evenement
+Empty queue
+idle time: 1.440467	new time: 47.662189
+-------------------------------
+---------------evenementt 144 ----------------
+evenement queue longueur: 10
+heure : 47.340611
+Manege evenement
+Empty queue
+idle time: 1.457597	new time: 48.798206
+-------------------------------
+---------------evenementt 145 ----------------
+evenement queue longueur: 10
+heure : 47.662189
+Manege evenement
+Empty queue
+idle time: 0.577457	new time: 48.239647
+-------------------------------
+---------------evenementt 146 ----------------
+evenement queue longueur: 10
+heure : 48.798206
+Manege evenement
+Empty queue
+idle time: 2.576598	new time: 51.374805
+-------------------------------
+---------------evenementt 147 ----------------
+evenement queue longueur: 10
+heure : 48.239647
+Manege evenement
+Empty queue
+idle time: 0.400164	new time: 48.639812
+-------------------------------
+---------------evenementt 148 ----------------
+evenement queue longueur: 10
+heure : 48.639812
+Manege evenement
+Empty queue
+idle time: 0.879514	new time: 49.519325
+-------------------------------
+---------------evenementt 149 ----------------
+evenement queue longueur: 10
+heure : 49.519325
+Manege evenement
+Empty queue
+idle time: 0.553732	new time: 50.073059
+-------------------------------
+---------------evenementt 150 ----------------
+evenement queue longueur: 10
+heure : 50.073059
+Manege evenement
+Empty queue
+idle time: 0.008483	new time: 50.081543
+-------------------------------
+---------------evenementt 151 ----------------
+evenement queue longueur: 10
+heure : 50.081543
+Manege evenement
+Empty queue
+idle time: 2.702315	new time: 52.783859
+-------------------------------
+---------------evenementt 152 ----------------
+evenement queue longueur: 10
+heure : 51.374805
+Manege evenement
+Empty queue
+idle time: 0.866255	new time: 52.241062
+-------------------------------
+---------------evenementt 153 ----------------
+evenement queue longueur: 10
+heure : 52.783859
+Manege evenement
+Empty queue
+idle time: 2.425850	new time: 55.209709
+-------------------------------
+---------------evenementt 154 ----------------
+evenement queue longueur: 10
+heure : 52.241062
+Manege evenement
+Empty queue
+idle time: 1.951472	new time: 54.192535
+-------------------------------
+---------------evenementt 155 ----------------
+evenement queue longueur: 10
+heure : 54.192535
+Manege evenement
+Empty queue
+idle time: 2.062581	new time: 56.255116
+-------------------------------
+---------------evenementt 156 ----------------
+evenement queue longueur: 10
+heure : 55.209709
+Manege evenement
+Empty queue
+idle time: 0.526239	new time: 55.735947
+-------------------------------
+---------------evenementt 157 ----------------
+evenement queue longueur: 10
+heure : 55.735947
+Manege evenement
+Empty queue
+idle time: 0.134188	new time: 55.870136
+-------------------------------
+---------------evenementt 158 ----------------
+evenement queue longueur: 10
+heure : 55.870136
+Manege evenement
+Empty queue
+idle time: 2.879149	new time: 58.749287
+-------------------------------
+---------------evenementt 159 ----------------
+evenement queue longueur: 10
+heure : 56.255116
+Manege evenement
+Empty queue
+idle time: 2.325173	new time: 58.580288
+-------------------------------
+---------------evenementt 160 ----------------
+evenement queue longueur: 10
+heure : 58.749287
+Manege evenement
+Empty queue
+idle time: 0.338893	new time: 59.088181
+-------------------------------
+---------------evenementt 161 ----------------
+evenement queue longueur: 10
+heure : 58.580288
+Manege evenement
+Empty queue
+idle time: 2.583795	new time: 61.164082
+-------------------------------
+---------------evenementt 162 ----------------
+evenement queue longueur: 10
+heure : 59.088181
+Manege evenement
+Empty queue
+idle time: 0.621770	new time: 59.709949
+-------------------------------
+---------------evenementt 163 ----------------
+evenement queue longueur: 10
+heure : 59.709949
+Manege evenement
+Empty queue
+idle time: 2.982588	new time: 62.692535
+-------------------------------
+---------------evenementt 164 ----------------
+evenement queue longueur: 10
+heure : 61.164082
+Manege evenement
+Empty queue
+idle time: 1.608344	new time: 62.772427
+-------------------------------
+---------------evenementt 165 ----------------
+evenement queue longueur: 10
+heure : 62.692535
+Manege evenement
+Empty queue
+idle time: 2.003725	new time: 64.696259
+-------------------------------
+---------------evenementt 166 ----------------
+evenement queue longueur: 10
+heure : 62.772427
+Manege evenement
+Empty queue
+idle time: 1.397504	new time: 64.169930
+-------------------------------
+---------------evenementt 167 ----------------
+evenement queue longueur: 10
+heure : 64.696259
+Manege evenement
+Empty queue
+idle time: 2.485639	new time: 67.181900
+-------------------------------
+---------------evenementt 168 ----------------
+evenement queue longueur: 10
+heure : 64.169930
+Manege evenement
+Empty queue
+idle time: 2.676971	new time: 66.846901
+-------------------------------
+---------------evenementt 169 ----------------
+evenement queue longueur: 10
+heure : 65.402863
+Visiteur arrive evenement
+Manege courant longueur queue: 1
+-------------------------------
+---------------evenementt 170 ----------------
+evenement queue longueur: 9
+heure : 66.846901
+Manege evenement
+Queuu pas vide
+Temps de tour : 142.381195	nouveau temps : 209.228088
+-------------------------------
+---------------evenementt 171 ----------------
+evenement queue longueur: 10
+heure : 67.181900
+Manege evenement
+Empty queue
+idle time: 1.215802	new time: 68.397705
+-------------------------------
+---------------evenementt 172 ----------------
+evenement queue longueur: 10
+heure : 68.397705
+Manege evenement
+Empty queue
+idle time: 0.580478	new time: 68.978180
+-------------------------------
+---------------evenementt 173 ----------------
+evenement queue longueur: 10
+heure : 68.978180
+Manege evenement
+Empty queue
+idle time: 2.513958	new time: 71.492134
+-------------------------------
+---------------evenementt 174 ----------------
+evenement queue longueur: 10
+heure : 69.246346
+Visiteur arrive evenement
+Manege courant longueur queue: 1
+-------------------------------
+---------------evenementt 175 ----------------
+evenement queue longueur: 9
+heure : 70.738205
+Manege evenement
+Queuu pas vide
+Temps de tour : 30.942101	nouveau temps : 101.680305
+-------------------------------
+---------------evenementt 176 ----------------
+evenement queue longueur: 10
+heure : 70.738205
+visiteur left the bank
+-------------------------------
+---------------evenementt 177 ----------------
+evenement queue longueur: 9
+heure : 71.492134
+Manege evenement
+Empty queue
+idle time: 2.020945	new time: 73.513077
+-------------------------------
+---------------evenementt 178 ----------------
+evenement queue longueur: 9
+heure : 73.513077
+Manege evenement
+Empty queue
+idle time: 0.971555	new time: 74.484634
+-------------------------------
+---------------evenementt 179 ----------------
+evenement queue longueur: 9
+heure : 74.484634
+Manege evenement
+Empty queue
+idle time: 1.041589	new time: 75.526222
+-------------------------------
+---------------evenementt 180 ----------------
+evenement queue longueur: 9
+heure : 75.526222
+Manege evenement
+Empty queue
+idle time: 1.597542	new time: 77.123764
+-------------------------------
+---------------evenementt 181 ----------------
+evenement queue longueur: 9
+heure : 77.123764
+Manege evenement
+Empty queue
+idle time: 1.371719	new time: 78.495483
+-------------------------------
+---------------evenementt 182 ----------------
+evenement queue longueur: 9
+heure : 78.495483
+Manege evenement
+Empty queue
+idle time: 1.921103	new time: 80.416588
+-------------------------------
+---------------evenementt 183 ----------------
+evenement queue longueur: 9
+heure : 80.416588
+Manege evenement
+Empty queue
+idle time: 2.151275	new time: 82.567863
+-------------------------------
+---------------evenementt 184 ----------------
+evenement queue longueur: 9
+heure : 82.567863
+Manege evenement
+Empty queue
+idle time: 1.380202	new time: 83.948067
+-------------------------------
+---------------evenementt 185 ----------------
+evenement queue longueur: 9
+heure : 83.948067
+Manege evenement
+Empty queue
+idle time: 1.623419	new time: 85.571487
+-------------------------------
+---------------evenementt 186 ----------------
+evenement queue longueur: 9
+heure : 85.571487
+Manege evenement
+Empty queue
+idle time: 0.017530	new time: 85.589020
+-------------------------------
+---------------evenementt 187 ----------------
+evenement queue longueur: 9
+heure : 85.589020
+Manege evenement
+Empty queue
+idle time: 0.806053	new time: 86.395073
+-------------------------------
+---------------evenementt 188 ----------------
+evenement queue longueur: 9
+heure : 86.395073
+Manege evenement
+Empty queue
+idle time: 0.574891	new time: 86.969963
+-------------------------------
+---------------evenementt 189 ----------------
+evenement queue longueur: 9
+heure : 86.969963
+Manege evenement
+Empty queue
+idle time: 2.080111	new time: 89.050072
+-------------------------------
+---------------evenementt 190 ----------------
+evenement queue longueur: 9
+heure : 89.050072
+Manege evenement
+Empty queue
+idle time: 1.332292	new time: 90.382362
+-------------------------------
+---------------evenementt 191 ----------------
+evenement queue longueur: 9
+heure : 90.382362
+Manege evenement
+Empty queue
+idle time: 0.709079	new time: 91.091438
+-------------------------------
+---------------evenementt 192 ----------------
+evenement queue longueur: 9
+heure : 91.647873
+Manege evenement
+Empty queue
+idle time: 1.959260	new time: 93.607132
+-------------------------------
+---------------evenementt 193 ----------------
+evenement queue longueur: 9
+heure : 91.647873
+visiteur left the bank
+-------------------------------
+---------------evenementt 194 ----------------
+evenement queue longueur: 8
+heure : 91.091438
+Manege evenement
+Empty queue
+idle time: 0.657465	new time: 91.748901
+-------------------------------
+---------------evenementt 195 ----------------
+evenement queue longueur: 8
+heure : 91.748901
+Manege evenement
+Empty queue
+idle time: 1.047972	new time: 92.796875
+-------------------------------
+---------------evenementt 196 ----------------
+evenement queue longueur: 8
+heure : 92.796875
+Manege evenement
+Empty queue
+idle time: 1.543055	new time: 94.339928
+-------------------------------
+---------------evenementt 197 ----------------
+evenement queue longueur: 8
+heure : 93.607132
+Manege evenement
+Empty queue
+idle time: 1.279235	new time: 94.886368
+-------------------------------
+---------------evenementt 198 ----------------
+evenement queue longueur: 8
+heure : 94.339928
+Manege evenement
+Empty queue
+idle time: 1.030560	new time: 95.370491
+-------------------------------
+---------------evenementt 199 ----------------
+evenement queue longueur: 8
+heure : 94.886368
+Manege evenement
+Empty queue
+idle time: 0.151399	new time: 95.037766
+-------------------------------
+---------------evenementt 200 ----------------
+evenement queue longueur: 8
+heure : 95.370491
+Manege evenement
+Empty queue
+idle time: 0.282960	new time: 95.653450
+-------------------------------
+---------------evenementt 201 ----------------
+evenement queue longueur: 8
+heure : 95.037766
+Manege evenement
+Empty queue
+idle time: 2.428064	new time: 97.465828
+-------------------------------
+---------------evenementt 202 ----------------
+evenement queue longueur: 8
+heure : 95.653450
+Manege evenement
+Empty queue
+idle time: 2.637038	new time: 98.290489
+-------------------------------
+---------------evenementt 203 ----------------
+evenement queue longueur: 8
+heure : 97.465828
+Manege evenement
+Empty queue
+idle time: 2.959931	new time: 100.425758
+-------------------------------
+---------------evenementt 204 ----------------
+evenement queue longueur: 8
+heure : 98.290489
+Manege evenement
+Empty queue
+idle time: 1.563782	new time: 99.854271
+-------------------------------
+---------------evenementt 205 ----------------
+evenement queue longueur: 8
+heure : 99.854271
+Manege evenement
+Empty queue
+idle time: 0.852840	new time: 100.707108
+-------------------------------
+---------------evenementt 206 ----------------
+evenement queue longueur: 8
+heure : 100.425758
+Manege evenement
+-------------------------------
+---------------evenementt 207 ----------------
+evenement queue longueur: 7
+heure : 100.707108
+Manege evenement
+-------------------------------
+---------------evenementt 208 ----------------
+evenement queue longueur: 6
+heure : 101.680305
+Manege evenement
+-------------------------------
+---------------evenementt 209 ----------------
+evenement queue longueur: 5
+heure : 101.680305
+visiteur left the bank
+-------------------------------
+---------------evenementt 210 ----------------
+evenement queue longueur: 4
+heure : 137.982559
+Manege evenement
+-------------------------------
+---------------evenementt 211 ----------------
+evenement queue longueur: 3
+heure : 137.982559
+visiteur left the bank
+-------------------------------
+---------------evenementt 212 ----------------
+evenement queue longueur: 2
+heure : 209.228088
+Manege evenement
+-------------------------------
+---------------evenementt 213 ----------------
+evenement queue longueur: 1
+heure : 209.228088
+visiteur left the bank
+-------------------------------
