@@ -1,22 +1,22 @@
 #ifndef _QUEUE_H_
 #define _QUEUE_H_
 
-#include "LinkedList.h"
+#include "ListeLiee.h"
 #include <stdbool.h>
 
-/* Create a new queue */
-LinkedList *q_new_queue(int data_size);
+/* Creer une nouvelle queue */
+ListeLiee *q_nouvelle_queue(int data_taille);
 
-/* Remove element from front */
-void q_dequeue(LinkedList *queue);
+/* Enlever un element un tete */
+void q_couper_tete_queue(ListeLiee *queue);
 
-/* Add element at end of the queue */
-void q_enqueue(LinkedList *queue, void *data);
+/* Ajouter un element a la fin de la queue */
+void q_mettre_un_element_en_queue(ListeLiee *queue, void *data);
 
-/* Get element at front */
-void *q_get_front(LinkedList *queue);
+/* Trouver l'element en tete */
+void *q_trouver_tete(ListeLiee *queue);
 
-/* Check whether queue is empty or not */
-bool q_is_empty(LinkedList *queue);
+/* Vérifiez si la queue est vide ou non  */
+bool q_est_vide(ListeLiee *queue);
 
 #endif
