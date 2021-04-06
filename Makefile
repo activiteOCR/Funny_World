@@ -5,7 +5,7 @@ INC_DIR = include
 OBJ_DIR = obj
 EXE_DIR = bin
 OUT_DIR = output
-EXE = qSim
+EXE = FunnyWorld
 
 LIBS = -lm # math library
 
