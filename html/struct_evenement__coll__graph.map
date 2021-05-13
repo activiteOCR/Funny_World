@@ -1,0 +1,6 @@
+<map id="Evenement" name="Evenement">
+<area shape="rect" id="node2" href="$struct_visiteur.html" title="Objet Visiteur. " alt="" coords="5,199,72,225"/>
+<area shape="rect" id="node3" href="$struct_manege.html" title="Objet Manege. " alt="" coords="97,199,165,225"/>
+<area shape="rect" id="node4" href="$struct_liste_liee.html" title="ListeLiee" alt="" coords="93,109,168,136"/>
+<area shape="rect" id="node5" href="$structll___maillon.html" title="Objet ll_Maillon. " alt="" coords="93,5,169,32"/>
+</map>

@@ -1,3 +1,14 @@
+/**
+ * \file Funny_World.c
+ * \brief Projet algo 2 (P18M Simulateur à evenement discret en C).
+ * \author Julien.T, Mathieu.B, Anakin.H
+ * \version 2.3
+ * \date 23 mai 2021
+ *
+ * Simulateur à evenement discret pour parc d'attraction, analyse virtual queue (simple versus multiple).
+ *
+ */
+
 #include "QueuePrioritaire.h"
 #include "Queue.h"
 #include "Visiteur.h"
@@ -8,7 +19,15 @@
 #include <stdbool.h>
 #include <math.h>
 
-/* Trouver la plus petite queue */
+/**
+ * \fn ListeLiee *trouver_la_plus_petite_queue(Manege *manege[], int nombre_de_manege, int nombre_de_visiteur)
+ * \brief Trouver la plus petite queue .
+ *
+ * \param manege[] Tableau de manege.
+ * \param nombre_de_manege nombre de manege.
+ * \param nombre_de_visteur nombre de visiteur.
+ * \return Instance la plus petite queue manege.
+ */
 ListeLiee *trouver_la_plus_petite_queue(Manege *manege[], int nombre_de_manege, int nombre_de_visiteur)
 {
     int longueur_min = nombre_de_visiteur + 1;
@@ -47,7 +66,18 @@ ListeLiee *trouver_la_plus_petite_queue(Manege *manege[], int nombre_de_manege, 
     return manege_queue;
 };
 
-/* le manege fait son tour avec le visiteur  */
+/**
+ * \fn void tour_visiteur(Manege *manege, Visiteur *visiteur, QueuePrioritaire *evenement_queue, float temps_de_service_moyen, float horloge_simulation, FILE *file)
+ * \brief le manege fait son tour avec le visiteur.
+ *
+ * \param manege pointeur de type Manege.
+ * \param visiteur pointeur de type Visiteur.
+ * \param evenement_queue pointeur de type QueuePrioritaire.
+ * \param temps_de_service_moyen de type float.
+ * \param horloge_simulation de type float.
+ * \param file pointeur de type FILE.
+ * \return void.
+ */
 void tour_visiteur(Manege *manege, Visiteur *visiteur, QueuePrioritaire *evenement_queue, float temps_de_service_moyen, float horloge_simulation, FILE *file)
 {
     float temps_de_service = 2 * temps_de_service_moyen * rand() / (float)(RAND_MAX);
@@ -68,7 +98,16 @@ void tour_visiteur(Manege *manege, Visiteur *visiteur, QueuePrioritaire *eveneme
     fprintf(file, "nouveau temps : %f\n", horloge_simulation + temps_de_service);
 }
 
-/* Evenement temps d'inactivite manege */
+/**
+ * \fn mettre_en_attente(Manege *manege, QueuePrioritaire *evenement_queue, float horloge_simulation, FILE *file)
+ * \brief Evenement temps d'inactivite manege.
+ *
+ * \param manege pointeur de type Manege.
+ * \param evenement_queue pointeur de type QueuePrioritaire.
+ * \param horloge_simulation de type float.
+ * \param file pointeur de type FILE.
+ * \return void.
+ */
 void mettre_en_attente(Manege *manege, QueuePrioritaire *evenement_queue, float horloge_simulation, FILE *file)
 {
     float temps_attente = TEMPS_ATTENTE_ENTRE_SERVICE * rand() / (float)(RAND_MAX);
@@ -82,9 +121,17 @@ void mettre_en_attente(Manege *manege, QueuePrioritaire *evenement_queue, float 
     fprintf(file, "Nouveau temps: %f\n", horloge_simulation + temps_attente);
 }
 
-/* Run simulation
-    mode = 1 for simulation single manege queue (plotting graph)
-    mode = 2 for simulating both single and then multiple manege queue
+/**
+ * \fn float lancer_simulation(int nombre_de_visiteurs, int nombre_de_maneges, float temps_de_simulation, float temps_de_tour_moyene, int mode)
+ * \brief Lancer simulation.
+ *	  mode = 1 Simulation simple manege queue (plotting graph)
+ *	  mode = 2 Simulation simple et ensuite multiple manege queue
+ * \param nombre_de_visiteurs (dans le parc) de type int.
+ * \param nombre_de_maneges (dans le parc) de type int.
+ * \param temps_de_simulation de type float.
+ * \param temps_de_tour_moyene (temps moyen de la durée d'un tour de manege) de type float.
+ * \param mode choix du mode simple ou multiple de type int.
+ * \return avg_time de type float.
  */
 float lancer_simulation(int nombre_de_visiteurs, int nombre_de_maneges, float temps_de_simulation, float temps_de_tour_moyene, int mode)
 {
@@ -174,15 +221,15 @@ float lancer_simulation(int nombre_de_visiteurs, int nombre_de_maneges, float te
                         exit(EXIT_FAILURE);
                     }
 
-					mettre_visiteur_dans_queue(manege_queue, evenement->visiteur);
+		    mettre_visiteur_dans_queue(manege_queue, evenement->visiteur);
 
-                    fprintf(file, "Manege courant longueur queue: %d\n", manege_queue->longueur);
+                    fprintf(file, "Manege actuel longueur queue: %d\n", manege_queue->longueur);
                 }
                 else if (evenement->type == VISITEUR_DEPART)
                 {
                     if (evenement->visiteur == NULL)
                     {
-                        perror("Visiteur depart evenement n'a pas de visiteur");
+                        perror("Evenement visiteur depart, pas de visiteur");
                         exit(EXIT_FAILURE);
                     }
 
@@ -197,7 +244,7 @@ float lancer_simulation(int nombre_de_visiteurs, int nombre_de_maneges, float te
                     }
                     total_visiteur_ayant_fait_un_manege++;
 
-                    fprintf(file, "visiteur quitte le parc\n");
+                    fprintf(file, "Visiteur quitte le parc\n");
                     free(evenement);
                 }
                 else if (evenement->type == MANEGE_EVENEMENT)
@@ -206,7 +253,7 @@ float lancer_simulation(int nombre_de_visiteurs, int nombre_de_maneges, float te
 
                     if (evenement->manege == NULL)
                     {
-                        perror("Manege evenement pas de manege");
+                        perror("Manege evenement, pas de manege");
                         exit(EXIT_FAILURE);
                     }
 
@@ -277,7 +324,7 @@ float lancer_simulation(int nombre_de_visiteurs, int nombre_de_maneges, float te
 
                     mettre_visiteur_dans_queue(manege_queue, evenement->visiteur);
 
-                    fprintf(file, "Actuel manege queue longueur: %d\n", manege_queue->longueur);
+                    fprintf(file, "Longueur actuel manege queue: %d\n", manege_queue->longueur);
                 }
                 else if (evenement->type == VISITEUR_DEPART)
                 {
@@ -440,6 +487,13 @@ float lancer_simulation(int nombre_de_visiteurs, int nombre_de_maneges, float te
 
     return temps_moyen_passe_dans_le_parc_1;
 }
+
+/**
+ * \fn int main (int argc, char **argv)
+ * \brief Entrée du programme.
+ *
+ * \return EXIT_SUCCESS - Arrêt normal du programme.
+ */
 
 int main(int argc, char **argv)
 {

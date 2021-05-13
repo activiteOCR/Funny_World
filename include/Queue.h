@@ -1,3 +1,13 @@
+/**
+ * \file Queue.h
+ * \brief Projet algo 2 (P18M Simulateur à evenement discret en C).
+ * \author Julien.T, Mathieu.B, Anakin.H
+ * \version 2.3
+ * \date 23 mai 2021
+ *
+ * prototype queue.
+ *
+ */
 #ifndef _QUEUE_H_
 #define _QUEUE_H_
 

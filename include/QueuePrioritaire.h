@@ -1,8 +1,25 @@
+/**
+ * \file QueuePrioritaire.h
+ * \brief Projet algo 2 (P18M Simulateur à evenement discret en C).
+ * \author Julien.T, Mathieu.B, Anakin.H
+ * \version 2.3
+ * \date 23 mai 2021
+ *
+ * Structure et prototype QueuePrioritaire.
+ *
+ */
 #ifndef _QUEUEPRIORITAIRE_H_
 #define _QUEUEPRIORITAIRE_H_
 
 #include <stdbool.h>
 
+/**
+ * \struct qp_Maillon
+ * \brief Objet qp_Maillon.
+ *
+ * qp_Maillon est un objet de gestion de maillon de queue prioritaire. 
+ * attribut maillon queue prioritaire. 
+ */
 typedef struct qp_Maillon
 {
     void *data;
@@ -10,6 +27,13 @@ typedef struct qp_Maillon
     struct qp_Maillon *suivant;
 } qp_Maillon;
 
+/**
+ * \struct QueuePrioritaire
+ * \brief Objet QueuePrioritaire.
+ *
+ * QueuePrioritaire est un objet de gestion de queue prioritaire. 
+ * attribut queue prioritaire. 
+ */
 typedef struct QueuePrioritaire
 {
     int longueur;

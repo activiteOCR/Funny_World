@@ -1,3 +1,13 @@
+/**
+ * \file Manege.h
+ * \brief Projet algo 2 (P18M Simulateur à evenement discret en C).
+ * \author Julien.T, Mathieu.B, Anakin.H
+ * \version 2.3
+ * \date 23 mai 2021
+ *
+ * structure et prototype Manege.
+ *
+ */
 #ifndef _MANEGE_H_
 #define _MANEGE_H_
 
@@ -7,9 +17,16 @@
 #define TEMPS_ATTENTE_INITIALE 10.0   // temps max d'attente avant de demarrer pour la premiere fois : 600s
 #define TEMPS_ATTENTE_ENTRE_SERVICE 3.0 // temps max entre deux tour : 150s
 
+/**
+ * \struct Manege
+ * \brief Objet Manege.
+ *
+ * Evenement est un objet de gestion de manege. 
+ * attribut sur les maneges. 
+ */
 typedef struct Manege
 {
-    float temps_attente_initial;    // Temps initial d'inactivite
+    float temps_attente_initial;    /*!< Temps initial d'inactivite. */
     float temps_de_tour_total;
     float temps_attente_total;
     ListeLiee *manege_queue;
