@@ -18,16 +18,16 @@ typedef struct QueuePrioritaire
     qp_Maillon *apres;
 } QueuePrioritaire;
 
-/* Retourne une nouvelle queue qui peut stocker des element d'une taille donnee */
+/* Retourne une nouvelle queue qui peut stocker des elements d'une taille donnee */
 QueuePrioritaire *qp_nouvelle_queue(int data_taille);
 
 /* Ajouter un element dans la queue en fonction de sa priorite */
 void qp_mettre_un_element_en_queue(QueuePrioritaire *queue, void *data, int priorite);
 
-/* Enlever l'element a l'avant */
+/* Retirer le premier element */
 void qp_couper_tete_queue(QueuePrioritaire *queue);
 
-/* Trouver l'element a l'avant */
+/* Obtenir le premier element*/
 void *qp_trouver_tete(QueuePrioritaire *queue);
 
 /* Vérifiez si la queue est vide ou non  */

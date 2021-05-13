@@ -17,10 +17,10 @@ typedef struct ListeLiee
     ll_Maillon *fin;
 } ListeLiee;
 
-/* Retourne une nouvelle liste qui peut stocker des element d'une taille donnee */
+/* Retourne une nouvelle liste qui peut stocker des elements d'une taille donnee */
 ListeLiee *ll_nouvelle_liste(int data_taille);
 
-/* Ajouter un nouveau maillon avec des donnee a la fin de la liste */
+/* Ajouter un nouveau maillon avec des donnees a la fin de la liste */
 void ll_ajouter(ListeLiee *liste, void *data);
 
 /* Trouver l'element de tete */

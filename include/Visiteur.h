@@ -7,7 +7,7 @@ typedef struct Visiteur
     float temps_de_visite;
     float heure_depart;
 } Visiteur;
-/* Creates a new customer with arrival_time */
+
 /* Creer un nouveau visiteur avec un temps d'arrivee */
 Visiteur *nouveau_visiteur(float heure_arrive);
 

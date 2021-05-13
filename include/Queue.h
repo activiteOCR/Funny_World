@@ -7,7 +7,7 @@
 /* Creer une nouvelle queue */
 ListeLiee *q_nouvelle_queue(int data_taille);
 
-/* Enlever un element un tete */
+/* Enlever un element en tete */
 void q_couper_tete_queue(ListeLiee *queue);
 
 /* Ajouter un element a la fin de la queue */
