@@ -495,48 +495,84 @@ float lancer_simulation(int nombre_de_visiteurs, int nombre_de_maneges, float te
  * \return EXIT_SUCCESS - Arrêt normal du programme.
  */
 
-int main(int argc, char **argv)
+int main(void)
 {
-    if (argc != 5)
+
+    int choix;
+    int nombre_de_visiteur;
+    int nombre_de_manege;
+    float temps_de_simulation;
+    float temps_de_service_moyen;
+
+     do
     {
-        printf("Entrez tous les arguments\n");
-        exit(EXIT_SUCCESS);
-    }
+        printf("\n********************************************MENU******************************************\n");
+        printf("\n1. Lancer la simulation en mode 1 = Simulation simple queue (plotting graph)");
+        printf("\n2. Lancer la simulation en mode 2 = Simulation simple et ensuite multiple queue (terminal)");
+        printf("\n0. quitter");
+        printf("\nChoix: ");
+        scanf("%d", &choix);
 
-    int nombre_de_visiteur = atoi(argv[1]);
-    int nombre_de_manege = atoi(argv[2]);
-    float temps_de_simulation = atof(argv[3]);
-    float temps_de_service_moyen = atof(argv[4]);
+        switch(choix)
+        {
+            case 1:
+                printf("\nEntrer le nombre de visiteurs: ");
+                scanf("%d",&nombre_de_visiteur);
+                printf("\nEntrer le nombre de manege disponible dans le parc: ");
+                scanf("%d",&nombre_de_manege);
+                printf("\nEntrer le temps de simulation: ");
+                scanf("%f",&temps_de_simulation);
+                printf("\nEntrer le temps moyen d'un tour de manege:");
+                scanf("%f",&temps_de_service_moyen);
 
-    lancer_simulation(nombre_de_visiteur, nombre_de_manege, temps_de_simulation, temps_de_service_moyen, 2);
 
-    FILE *fgp;
-    fgp = fopen("output/plot.txt", "w");
-    if (fgp == NULL)
-    {
-        perror("impossible d'ouvrir le fichier");
-        exit(1);
-    }
+                FILE *fgp;
+                fgp = fopen("output/plot.txt", "w");
+                if (fgp == NULL)
+                {
+                    perror("impossible d'ouvrir le fichier");
+                    exit(1);
+                }
 
-    for (int manege_compt = 1; manege_compt < nombre_de_manege; manege_compt++)
-    {
-        float avg_time = lancer_simulation(nombre_de_visiteur, manege_compt, temps_de_simulation, temps_de_service_moyen, 1);
-        fprintf(fgp, "%d %f %0.2f\n", manege_compt, avg_time, avg_time);
-    }
+                for (int manege_compt = 1; manege_compt < nombre_de_manege; manege_compt++)
+                {
+                    float avg_time = lancer_simulation(nombre_de_visiteur, manege_compt, temps_de_simulation, temps_de_service_moyen, 1);
+                    fprintf(fgp, "%d %f %0.2f\n", manege_compt, avg_time, avg_time);
+                }
 
-    fclose(fgp);
+                fclose(fgp);
 
-    /* Plot graph */
-    FILE *pipe = popen("gnuplot -persist", "w");
-    fprintf(pipe, "set terminal png\n");
-    fprintf(pipe, "set output '%s'\n", "output/plot.png");
-    fprintf(pipe, "set title 'Temps moyen qu un visiteur passe dans le parc versus le nombre de manege'\n");
-    fprintf(pipe, "set xlabel 'manege'\n");
-    fprintf(pipe, "set ylabel 'avg time (seconds)'\n");
-    fprintf(pipe, "set style fill solid 1.0\n");
-    fprintf(pipe, "%s\n", "set style data histograms");
-    fprintf(pipe, "%s\n", "plot 'output/plot.txt' using 1:2 with linespoints notitle, '' using 1:2:3 with labels notitle");
-    fclose(pipe);
+                /* Plot graph */
+                FILE *pipe = popen("gnuplot -persist", "w");
+                fprintf(pipe, "set terminal png\n");
+                fprintf(pipe, "set output '%s'\n", "output/plot.png");
+                fprintf(pipe, "set title 'Temps moyen qu un visiteur passe dans le parc versus le nombre de manege'\n");
+                fprintf(pipe, "set xlabel 'manege'\n");
+                fprintf(pipe, "set ylabel 'avg time (seconds)'\n");
+                fprintf(pipe, "set style fill solid 1.0\n");
+                fprintf(pipe, "%s\n", "set style data histograms");
+                fprintf(pipe, "%s\n", "plot 'output/plot.txt' using 1:2 with linespoints notitle, '' using 1:2:3 with labels notitle");
+                fclose(pipe);
+                printf("\nResultat disponible dans /bin/output/plot.png\n");
+                break;
+            case 2:
+                printf("\nEntrer le nombre de visiteurs: ");
+                scanf("%d",&nombre_de_visiteur);
+                printf("\nEntrer le nombre de manege disponible dans le parc: ");
+                scanf("%d",&nombre_de_manege);
+                printf("\nEntrer le temps de simulation: ");
+                scanf("%f",&temps_de_simulation);
+                printf("\nEntrer le temps moyen d'un tour de manege: ");
+                scanf("%f",&temps_de_service_moyen);
+                lancer_simulation(nombre_de_visiteur, nombre_de_manege, temps_de_simulation, temps_de_service_moyen, 2);
+                break;
+            case 0:
+                printf("\nVous allez quitter le programme.\n");
+                break;
+            default:
+                break;
+        }
+    }while (choix !=0);
 
     return 0;
 }
