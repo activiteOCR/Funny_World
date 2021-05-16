@@ -94,8 +94,8 @@ void tour_visiteur(Manege *manege, Visiteur *visiteur, QueuePrioritaire *eveneme
     mettre_evenement_dans_la_queue(evenement_queue, visiteur_depart_evenement);
 
     fprintf(file, "Queue pas vide\n");
-    fprintf(file, "Temps de tour : %f\t", temps_de_service);
-    fprintf(file, "nouveau temps : %f\n", horloge_simulation + temps_de_service);
+    fprintf(file, "Temps du tour : %f\t", temps_de_service);
+    fprintf(file, "Nouveau horodatage : %f\n", horloge_simulation + temps_de_service);
 }
 
 /**
@@ -118,7 +118,7 @@ void mettre_en_attente(Manege *manege, QueuePrioritaire *evenement_queue, float 
 
     fprintf(file, "Queue vide\n");
     fprintf(file, "Temps d'inactivité: %f\t", temps_attente);
-    fprintf(file, "Nouveau temps: %f\n", horloge_simulation + temps_attente);
+    fprintf(file, "Nouveau horodatage: %f\n", horloge_simulation + temps_attente);
 }
 
 /**
@@ -150,7 +150,7 @@ float lancer_simulation(int nombre_de_visiteurs, int nombre_de_maneges, float te
         float heure_arrive = temps_de_simulation * rand() / (float)(RAND_MAX);
         Visiteur *visiteur = nouveau_visiteur(heure_arrive);
         visiteurs[i] = visiteur;
-        fprintf(file, "heure d'arrive visiteur : %f\n", heure_arrive);
+        fprintf(file, "heure d'arrivee visiteur : %f\n", heure_arrive);
     }
 
     /* Creer les maneges */
@@ -204,7 +204,7 @@ float lancer_simulation(int nombre_de_visiteurs, int nombre_de_maneges, float te
                 evenement_compteur++;
 
                 fprintf(file, "---------------evenement %d ----------------\n", evenement_compteur);
-                fprintf(file, "evenement queue longueur: %d\n", evenement_queue->longueur);
+                fprintf(file, "Evenement longueur file d'attente: %d\n", evenement_queue->longueur);
                 Evenement *evenement = (Evenement *)qp_trouver_tete(evenement_queue);
                 qp_couper_tete_queue(evenement_queue);
 
@@ -213,17 +213,17 @@ float lancer_simulation(int nombre_de_visiteurs, int nombre_de_maneges, float te
 
                 if (evenement->type == VISITEUR_ARRIVE)
                 {
-                    fprintf(file, "Visiteur arrive evenement\n");
+                    fprintf(file, "Evenement visiteur arrivee\n");
 
                     if (evenement->visiteur == NULL)
                     {
-                        perror("Visiteur arrive evenement n'a pas de visiteur");
+                        perror("Evenement visiteur arrivee, pas de visiteur");
                         exit(EXIT_FAILURE);
                     }
 
 		    mettre_visiteur_dans_queue(manege_queue, evenement->visiteur);
 
-                    fprintf(file, "Manege actuel longueur queue: %d\n", manege_queue->longueur);
+                    fprintf(file, "Longueur file d'attente manege courant: %d\n", manege_queue->longueur);
                 }
                 else if (evenement->type == VISITEUR_DEPART)
                 {
@@ -249,11 +249,11 @@ float lancer_simulation(int nombre_de_visiteurs, int nombre_de_maneges, float te
                 }
                 else if (evenement->type == MANEGE_EVENEMENT)
                 {
-                    fprintf(file, "Manege evenement\n");
+                    fprintf(file, "Evenement manege\n");
 
                     if (evenement->manege == NULL)
                     {
-                        perror("Manege evenement, pas de manege");
+                        perror("Evenement manege, pas de manege");
                         exit(EXIT_FAILURE);
                     }
 
@@ -302,7 +302,7 @@ float lancer_simulation(int nombre_de_visiteurs, int nombre_de_maneges, float te
                 evenement_compteur++;
 
                 fprintf(file, "---------------evenement %d ----------------\n", evenement_compteur);
-                fprintf(file, "evenement queue longueur: %d\n", evenement_queue->longueur);
+                fprintf(file, "Evenement longueur file d'attente: %d\n", evenement_queue->longueur);
                 Evenement *evenement = (Evenement *)qp_trouver_tete(evenement_queue);
                 qp_couper_tete_queue(evenement_queue);
 
@@ -311,11 +311,11 @@ float lancer_simulation(int nombre_de_visiteurs, int nombre_de_maneges, float te
 
                 if (evenement->type == VISITEUR_ARRIVE)
                 {
-                    fprintf(file, "Visiteur Arrive evenement\n");
+                    fprintf(file, "Evenement visiteur arrivee\n");
 
                     if (evenement->visiteur == NULL)
                     {
-                        perror("Visiteur arrive evenement pas de visiteur");
+                        perror("Evenement visiteur arrivee, pas de visiteur");
                         exit(EXIT_FAILURE);
                     }
 
@@ -324,13 +324,13 @@ float lancer_simulation(int nombre_de_visiteurs, int nombre_de_maneges, float te
 
                     mettre_visiteur_dans_queue(manege_queue, evenement->visiteur);
 
-                    fprintf(file, "Longueur actuel manege queue: %d\n", manege_queue->longueur);
+                    fprintf(file, "Longueur file d'attente  manege courant: %d\n", manege_queue->longueur);
                 }
                 else if (evenement->type == VISITEUR_DEPART)
                 {
                     if (evenement->visiteur == NULL)
                     {
-                        perror("Visiteur depart evenement pas de visiteur");
+                        perror("Evenement visiteur depart, pas de visiteur");
                         exit(EXIT_FAILURE);
                     }
 
@@ -350,11 +350,11 @@ float lancer_simulation(int nombre_de_visiteurs, int nombre_de_maneges, float te
                 }
                 else if (evenement->type == MANEGE_EVENEMENT)
                 {
-                    fprintf(file, "Manege evenement\n");
+                    fprintf(file, "Evenement manege\n");
 
                     if (evenement->manege == NULL)
                     {
-                        perror("Manege evenement n'a pas de manege manege");
+                        perror("Evenement manege evenement, n'a pas de manege");
                         exit(EXIT_FAILURE);
                     }
 
@@ -409,7 +409,7 @@ float lancer_simulation(int nombre_de_visiteurs, int nombre_de_maneges, float te
                 }
                 else
                 {
-                    perror("Pas trouver de type d'evenement correspondant");
+                    perror("Pas de type d'evenement correspondant");
                     exit(EXIT_FAILURE);
                 }
 
@@ -454,11 +454,11 @@ float lancer_simulation(int nombre_de_visiteurs, int nombre_de_maneges, float te
 
             if (sim_compt == 0)
             {
-                printf("Type de queue : Simple\n");
+                printf("Type de file d'attente : Simple\n");
             }
             else
             {
-                printf("Type de queue : Multiple\n");
+                printf("Type de file d'attente : Multiple\n");
             }
 
             printf("Temps moyen passe dans le parc : %f\n", temps_moyen_passe_dans_le_parc);
@@ -507,8 +507,8 @@ int main(void)
      do
     {
         printf("\n********************************************MENU******************************************\n");
-        printf("\n1. Lancer la simulation en mode 1 = Simulation simple queue (plotting graph)");
-        printf("\n2. Lancer la simulation en mode 2 = Simulation simple et ensuite multiple queue (terminal)");
+        printf("\n1. Lancer la simulation en mode 1 = Simulation simple file d'attente (plotting graph)");
+        printf("\n2. Lancer la simulation en mode 2 = Simulation simple et ensuite multiple file d'attente (terminal)");
         printf("\n0. quitter");
         printf("\nChoix: ");
         scanf("%d", &choix);
@@ -518,7 +518,7 @@ int main(void)
             case 1:
                 printf("\nEntrer le nombre de visiteurs: ");
                 scanf("%d",&nombre_de_visiteur);
-                printf("\nEntrer le nombre de manege disponible dans le parc: ");
+                printf("\nEntrer le nombre de manege disponible dans le parc (info: si > 10 graph difficilement exploitable): ");
                 scanf("%d",&nombre_de_manege);
                 printf("\nEntrer le temps de simulation: ");
                 scanf("%f",&temps_de_simulation);
@@ -534,7 +534,7 @@ int main(void)
                     exit(1);
                 }
 
-                for (int manege_compt = 1; manege_compt < nombre_de_manege; manege_compt++)
+                for (int manege_compt = 1; manege_compt < nombre_de_manege + 1; manege_compt++)
                 {
                     float avg_time = lancer_simulation(nombre_de_visiteur, manege_compt, temps_de_simulation, temps_de_service_moyen, 1);
                     fprintf(fgp, "%d %f %0.2f\n", manege_compt, avg_time, avg_time);
